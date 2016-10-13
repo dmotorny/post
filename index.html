@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="mailpost">
+  <head>
+    <meta charset="UTF-8">
+    <title>MailBox</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css" />
+    <script>document.write('<base href="' + document.location + '" />');</script>
+  </head>
+  
+  <body>
+    <div class="mail_post">
+      <h1><span class="glyphicon glyphicon-send" aria-hidden="true"></span>E-Post Service</h1>
+      <ul>
+        <li><h2 ui-sref="boxtypes">Mail Box</h2></li>
+        <li><h2 ui-sref="users">Address Book</h2></li>
+      </ul>
+      <ui-view></ui-view>
+    </div>
+    
+    <script src="https://opensource.keycdn.com/angularjs/1.5.8/angular.min.js"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    
+  </body>
+  
+</html>

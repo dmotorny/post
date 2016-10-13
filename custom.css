@@ -1,0 +1,125 @@
+h1 {
+  margin-top: 10px;
+  font-size: 165%;
+}
+
+h2 {
+  color: #08c;
+  font-size: 138%;
+  display: inline-block;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+  padding: 10px 12px;
+  font-size: 115%;
+  margin-right: 6px;
+  background: #fbfbfb;
+  border-radius: 5px;
+}
+
+h3:hover {
+  background: orange;
+  cursor: pointer;
+}
+
+.mail_post {
+  padding: 20px 20px;
+}
+
+.mail_post ul {
+  list-style: none;
+  padding: 0px; 
+  margin-top: 15px;
+}
+
+.mail_post ul li {
+  display: inline-block;
+}
+
+.mail_post ul li h2 {
+  padding: 10px 12px;
+  margin-right: 5px;  
+  border-radius: 5px;
+  background: #fbfbfb;
+}
+
+.mail_post ul li h2:hover {
+  background: #08c;
+  color: white;
+  cursor: pointer;
+}
+
+.glyphicon {
+  margin: 0px 15px 0px 0px;
+  padding: 10px 13px 10px 7px;
+  background: #f3f3f3;
+  color: orange;
+  border-radius: 25px;
+}
+
+/* Letters  */
+
+.one_mail {
+  margin-bottom: 10px;
+}
+
+.mail_head span {
+  font-weight: bold;
+  width: 70px;
+  display: inline-block;
+}
+
+.mail_body {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.checking:hover {
+  cursor: pointer;
+}
+
+.mail_shorttext {
+  margin-left: 5px;
+}
+
+.mail_shorttext:hover {
+  cursor: pointer;
+}
+
+.mail_date {
+  float: right;
+}
+
+.mail_short {
+    background: #eaf1f5;
+    padding: 5px 10px 1px 10px;
+    border-radius: 5px;
+}
+
+.mail_full {
+  padding: 10px 10px 0px 10px;
+}
+
+.shorttext_label {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.shorttext_label:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.sender_span {
+  margin-right: 5px;
+}
+
+.subject_span {
+  margin-left: 5px;
+}
+
+.mail_list_block {
+  margin-top: 25px;
+} 
